@@ -1,0 +1,15 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "description": "foo",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.39.0",
+    "eslint-plugin-import": "^2.31.0",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "test": "eslint --ext .ts src/**"
+  }
+}
